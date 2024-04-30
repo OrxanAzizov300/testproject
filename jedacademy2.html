@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <form>
+
+
+    </form>
+    <form>
+        <fieldset>
+            <legend>Personal details</legend>
+            <label for="firstname">First name: </label>
+            <input type="text" id="firstname" name="firstname" required placeholder="text your firstname">
+            <br><br>
+            <label for="lastname">Last name: </label>
+            <input type="text" name="lastname" id="lastname" required placeholder="text your last name"><br><br>
+            <label for="date">Date of birth: </label>
+            <input type="date" id="date" name="date" required><br><br>
+            <span>Gender: </span>
+            <label for="male">
+                Male
+                <input type="radio" id="male" name="gender">
+
+            </label>
+            <label for="female">
+                Female
+                <input type="radio" id="female" name="gender">
+            </label>
+            <label for="prefer not to say it">
+                Prefer not to say it
+                <input type="radio" name="gender" id="prefer not to say it">
+            </label>
+            <br><br>
+            <label for="email">Email:
+                <input type="email" name="email" id="email">
+
+            </label><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <span>Choose your continent</span>
+            <select id="">
+                <option value="0">--none--</option>
+                <option value="1">Asia</option>
+                <option value="2">Europe</option>
+                <option value="3">America</option>
+                <option value="4">Australia</option>
+                <option value="5">Africa</option>
+            </select><br><br>
+            <label for="opinion">Opinions about our online store</label><br>
+            <textarea name="opinion" id="opinion" cols="30" rows="10"></textarea>
+            <br><br>
+            <input type="reset"><br><br>
+            
+            <button>send</button>
+        </fieldset>
+
+
+    </form>
+
+</body>
+
+</html>
